@@ -4,3 +4,9 @@
   line-height: 1.5em;
   box-sizing: border-box;
 }
+* {
+  font-family: "Helvetica Neue", Helvetica, Arial;
+  margin: 0;
+  line-height: 1.5em;
+  box-sizing: border-box;
+}
