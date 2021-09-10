@@ -1,0 +1,139 @@
+* {
+	font-family: "Helvetica Neue", Helvetica, Arial;
+	margin: 0;
+	line-height: 1.5em;
+	box-sizing: border-box;
+}
+
+/* Style the navbar */
+.topNav {
+	overflow: hidden;
+	background-color: #e9e9e9;
+}
+
+/* Navbar links */
+.topNav a {
+	float: left;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	height: em;
+}
+
+.topNav .login-container {
+	float: right;
+}
+
+.bigBox {
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+}
+
+.bigBox-left {
+	float: left;
+	padding-top: 10em;
+	padding-left: 10em;
+	width: 20%;
+	flex: 1;
+}
+.titles {
+	font-size: 3em;
+}
+
+.bigBox-right {
+	float: right;
+	width: 70%;
+	flex: 4;
+}
+
+.emails {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 10em;
+	background-color: #f4f7fa;
+}
+
+.whyChooseUs {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #f4f7fa;
+	height: 10em;
+	text-align: center;
+}
+
+.reasons {
+	display: flex;
+	width: 100%;
+	margin: 0 5px;
+	flex-direction: row;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+}
+
+.signup {
+	background-color: #8ee5d1;
+	height: 2.5em;
+	width: 8em;
+	border: 1px solid #8ee5d1;
+	border-radius: 1em;
+}
+
+.num {
+	font-size: 3em;
+	color: #8ee5d1;
+}
+
+.points {
+	display: flex;
+	flex-direction: column;
+	padding-left: 10px;
+	text-align: center;
+	width: 30%;
+	background-color: #f4f7fa;
+	margin: 10px;
+	justify-content: space-between;
+}
+
+.footer {
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	justify-content: space-around;
+	background-color: #f4f7fa;
+}
+
+.footer p,
+h1 {
+	background-color: #f4f7fa;
+}
+button {
+	background-color: #8ee5d1;
+	height: 3em;
+	width: 8em;
+	border: 1px solid #8ee5d1;
+	border-radius: 1em;
+}
+
+input {
+	border: 2px solid #f4f7fa;
+	border-radius: 4px;
+	height: 4em;
+	width: 30em;
+}
+
+.footer-left {
+	text-align: left;
+	float: left;
+}
+
+.footer-right {
+	text-align: right;
+	float: right;
+}
